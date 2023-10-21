@@ -1,0 +1,80 @@
+/* Estilos para el cuerpo de la página */
+body.fondo {
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  }
+  
+  /* Estilos para los encabezados */
+  h1 {
+    color: rgb(134, 133, 133);
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: rgb(144, 143, 143);
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: rgb(157, 151, 151);
+  }
+  
+  /* Estilos para enlaces */
+  a {
+    text-decoration: none;
+    color: rgb(47, 47, 226);
+  }
+  
+  a:hover {
+    color: orangered;
+  }
+  
+  /* Estilos para las imágenes */
+  img {
+    border: 2px solid burlywood;
+    max-width: 100%; /* Hace que las imágenes sean responsivas y no desborden el contenedor */
+  }
+  
+  /* Estilos para la lista descriptiva */
+  dl {
+    margin: 10px 0;
+  }
+  
+  dt {
+    font-weight: bold;
+  }
+  
+  dd {
+    margin-left: 10px;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  form {
+    margin: 20px 0;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: orangered;
+  }
